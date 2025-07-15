@@ -97,6 +97,25 @@ This framework has the potential to:
 - **Improve AI Safety**: Built-in safeguards and ethical considerations
 - **Enable New Applications**: Unlock previously impossible AI use cases
 
+## 🦄 Viral-Ready Example Apps
+
+The `apps/` directory contains 10 unique, viral-ready AI-powered apps. Each is CLI-runnable and uses the core framework:
+
+| App Name                   | Description                                                      | Example Usage                                  |
+|---------------------------|------------------------------------------------------------------|------------------------------------------------|
+| explain_levels.py          | Explains a topic at 3 levels: like I'm 5, 15, and 50             | `python apps/explain_levels.py "quantum computing"` |
+| prompt_playground.py       | Interactive playground to test prompts and see AI responses       | `python apps/prompt_playground.py`             |
+| ai_debate_club.py          | Two AIs debate a user-supplied topic                             | `python apps/ai_debate_club.py "AI regulation"`     |
+| creative_story_generator.py| Generates a creative story from a user seed                      | `python apps/creative_story_generator.py "A robot on Mars"` |
+| ai_interviewer.py          | AI asks you mock interview questions for a chosen role           | `python apps/ai_interviewer.py "Software Engineer"`  |
+| prompt_optimizer.py        | Suggests improvements to your prompt                             | `python apps/prompt_optimizer.py`               |
+| cross_domain_synthesizer.py| Combines knowledge from two fields for creative synthesis        | `python apps/cross_domain_synthesizer.py`       |
+| ethical_ai_advisor.py      | Analyzes a prompt for ethical risks and bias                     | `python apps/ethical_ai_advisor.py`             |
+| persona_simulator.py       | AI responds as a chosen persona (e.g., Shakespeare, Yoda)        | `python apps/persona_simulator.py`              |
+| prompt_to_code.py          | Generates Python code from a natural language prompt             | `python apps/prompt_to_code.py`                 |
+
+All apps use [rich](https://github.com/Textualize/rich) for visually appealing output and robust error handling.
+
 ## 🤝 Contributing
 
 We welcome contributions from researchers, developers, and AI enthusiasts. Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
